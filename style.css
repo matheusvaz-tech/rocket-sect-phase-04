@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f2e41;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 67.5rem; /* Equivale a 1080px (fiz o arredondamento)*/
+  margin-bottom: 6.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 4rem;
+  font-family: "JetBrains Mono", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li {
+  transition: 0.4s;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1.12);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5.5rem;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.title {
+  font-family: "JetBrains Mono", serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+span {
+  color: #00bfa6;
+}
+
+p {
+  width: 38rem;
+  color: #c2c2c2;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+#footer {
+  margin-top: 9.5rem;
+}
+
+#footer div {
+  width: 35.5rem;
+  border: 0.064rem solid #00bfa6;
+  margin: 1.75rem auto;
+}
+
+#footer p {
+  color: #fff;
+  font-family: "JetBrains Mono", serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  width: 29rem;
+  margin: 1.75rem auto;
+}
+
+.security-icon {
+  position: fixed;
+  left: 1.25rem;
+  bottom: 1.25rem;
+}
